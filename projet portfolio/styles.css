@@ -1,0 +1,125 @@
+.header {
+  display: flex;
+  background-color: #bdb2af;
+  height: 800px;
+  width: 863px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.headergauche {
+  background-color: #d9d9d9;
+  height: 800px;
+  width: 576px;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+.photoid {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+  top: 25%;
+  left: 76%;
+  z-index: 2;
+  border-radius: 1%;
+}
+
+.contour {
+  border: solid;
+  border-color: rgb(15, 12, 112);
+  border-radius: 1%;
+  border-width: 4px;
+  height: 380px;
+  width: 380px;
+  position: absolute;
+  top: 30%;
+  left: 82%;
+  z-index: 1;
+}
+
+.prenom {
+  color: #d9d9d9;
+  position: absolute;
+  left: 15%;
+  top: 28%;
+  font-size: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+
+.nom {
+  color: #d9d9d9;
+  position: absolute;
+  left: 15%;
+  top: 40%;
+  font-size: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.croix1 {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.jus {
+  position: absolute;
+  rotate: -18deg;
+  z-index: 1;
+  transition: transform 0.5s ease;
+  top: 8%;
+  left: 60%;
+}
+
+.jus:hover {
+  transform: scaleX(-1);
+}
+
+.croix2 {
+  position: absolute;
+  left: 125%;
+  top: 85%;
+  z-index: 1;
+}
+
+.gelee {
+  position: absolute;
+  left: 5%;
+  top: 80%;
+  width: 150px;
+  height: 150px;
+  rotate: -12deg;
+  z-index: 1;
+}
+
+.section2 {
+  background-color: #383838;
+  height: 800px;
+  width: 1440px;
+  position: absolute;
+  top: 800px;
+  left: 0px;
+}
+
+.titreprojet {
+  color: #bdb2af;
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  font-size: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+
+.chat {
+  position: absolute;
+  left: 38%;
+  top: 12%;
+}
